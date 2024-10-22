@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuhan Zhao Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+            position: relative;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+            transform: scale(1.1);
+        }
+        section {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin: 40px auto;
+            max-width: 800px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            animation: fadeIn 1.5s ease;
+        }
+        section h2 {
+            color: #444;
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            animation: fadeInUp 1.5s ease;
+            font-style: italic;
+            font-weight: bold;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.5s;
+        }
+        section img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+            font-style: italic;
+        }
+        .contents-table {
+            margin: 20px auto;
+            width: 90%;
+            border-collapse: collapse;
+        }
+        .contents-table th, .contents-table td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        .contents-table th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        .contents-table tr:hover {
+            background-color: #f1f1f1;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yuhan Zhao Portfolio</h1>
+        <p>Email: yuhanzhao11@gmail.com | Phone: +86 18102080899</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#cover">Cover</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contents">Contents</a></li>
+            <li><a href="#weavingroots">WeavingRoots</a></li>
+            <li><a href="#vitalslope">VitalSlope</a></li>
+            <li><a href="#bubblepark">BubblePark</a></li>
+            <li><a href="#metachurch">MetaChurch</a></li>
+            <li><a href="#nimbusretreat">NimbusRetreat</a></li>
+            <li><a href="#beneathwater">BeneathWater</a></li>
+        </ul>
+    </nav>
+
+    <section id="cover">
+        <h2>Cover</h2>
+        <img src="myworks/1.png" alt="Cover Page">
+    </section>
+
+    <section id="cv">
+        <h2>Curriculum Vitae</h2>
+        <img src="myworks/2.png" alt="CV Page">
+    </section>
+
+    <section id="contents">
+        <h2>Contents</h2>
+        <table class="contents-table">
+            <thead>
+                <tr>
+                    <th>Section</th>
+                    <th>Description</th>
+                    <th>Page Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>WeavingRoots</td>
+                    <td>Rural Revitalization and Cultural Heritage Revival</td>
+                    <td>1-3</td>
+                </tr>
+                <tr>
+                    <td>VitalSlope</td>
+                    <td>Ecological Restoration and Sustainable Landscape Design</td>
+                    <td>4-6</td>
+                </tr>
+                <tr>
+                    <td>BubblePark</td>
+                    <td>Community Park Renovation Project</td>
+                    <td>7-8</td>
+                </tr>
+                <tr>
+                    <td>MetaChurch</td>
+                    <td>Metaverse Block Design</td>
+                    <td>9-10</td>
+                </tr>
+                <tr>
+                    <td>NimbusRetreat</td>
+                    <td>Floating Hermitage Inspired by Nature</td>
+                    <td>11-12</td>
+                </tr>
+                <tr>
+                    <td>BeneathWater</td>
+                    <td>Landscape Architecture Installation</td>
+                    <td>13</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="weavingroots">
+        <h2>WeavingRoots</h2>
+        <img src="myworks/4.png" alt="WeavingRoots Page 1">
+        <img src="myworks/5.png" alt="WeavingRoots Page 2">
+        <img src="myworks/6.png" alt="WeavingRoots Page 3">
+    </section>
+
+    <section id="vitalslope">
+        <h2>VitalSlope</h2>
+        <img src="myworks/7.png" alt="VitalSlope Page 1">
+        <img src="myworks/8.png" alt="VitalSlope Page 2">
+        <img src="myworks/9.png" alt="VitalSlope Page 3">
+    </section>
+
+    <section id="bubblepark">
+        <h2>BubblePark</h2>
+        <img src="myworks/10.png" alt="BubblePark Page 1">
+        <img src="myworks/11.png" alt="BubblePark Page 2">
+    </section>
+
+    <section id="metachurch">
+        <h2>MetaChurch</h2>
+        <img src="myworks/12.png" alt="MetaChurch Page 1">
+        <img src="myworks/13.png" alt="MetaChurch Page 2">
+        <p>Watch the related video below to learn more about MetaChurch:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UlqD6DL9DGI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="nimbusretreat">
+        <h2>NimbusRetreat</h2>
+        <img src="myworks/14.png" alt="NimbusRetreat Page 1">
+        <img src="myworks/15.png" alt="NimbusRetreat Page 2">
+    </section>
+
+    <section id="beneathwater">
+        <h2>BeneathWater</h2>
+        <img src="myworks/16.png" alt="BeneathWater Page">
+    </section>
+
+    <footer>
+        <p>Contact: <a href="mailto:yuhanzhao11@gmail.com">yuhanzhao11@gmail.com</a></p>
+    </footer>
+</body>
+</html>
